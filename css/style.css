@@ -1,0 +1,213 @@
+/* general css  */
+:root {
+    --icon-color: #ff5e15;
+    --text-black: #000000;
+    --text-white: #ffffff;
+    --bg-color-light: #09162a;
+    --bg-color-dark: #000000;
+    --bg-extra-light: #808080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, span, a {
+    font-family: "Oswald", serif;
+}
+
+.py {
+    padding: 100px 0;
+}
+
+/* header top section  */
+
+.header-top .header-content i {
+    color: var(--icon-color);
+}
+
+header .navbar {
+    background-color: var(--icon-color);
+}
+
+.navbar nav ul li a {
+    color: var(--text-white);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar nav ul li a:hover {
+    color: var(--text-black);
+}
+
+/* banner section  */
+
+.banner .slide1 , .slide2{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/banner-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/banner-1.jpg);
+}
+
+/* advertisement section  */
+
+.advertisement .heading span {
+    color: var(--icon-color);
+}
+
+/* about section  */
+
+.about {
+    background-color: var(--bg-color-light);
+}
+
+.about .about-content .image {
+    background-image: url(../images/about_1.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+    position: absolute;
+    top: -40px;
+}
+
+.about .about-text span {
+    color: var(--icon-color);
+}
+
+.about .about-text i {
+    color: var(--icon-color);
+    font-size: 60px;
+}
+
+/* quote section  */
+
+.quote .quote-image img {
+    height: 668px;
+    width: 382px;
+}
+
+.quote-form {
+    background-color: var(--bg-color-dark);
+    padding: 5rem;
+}
+
+.quote-form span {
+    color: var(--icon-color);
+}
+
+.quote-form input {
+    color: var(--text-white);
+    border: none;
+    border-bottom: 1px solid var(--text-white);
+    outline: none;
+}
+
+.quote-form .button {
+    background-color: var(--icon-color);
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.quote-form .button:hover {
+    background-color: transparent;
+}
+
+/* project section  */
+
+.project {
+    background-color: var(--bg-color-light);
+}
+
+.project .project-heading span {
+    color: var(--icon-color);
+}
+
+.project .project-content .project-text span {
+    color: var(--icon-color);
+}
+
+.project .project-content .project-text {
+    top: 100%;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.project .project-content:hover .project-text {
+    top: 80%;
+}
+
+.project .project-content img {
+    transition: all 0.3s ease;
+}
+
+.project .project-content img:hover {
+    transform: scale(1.1);
+}
+
+/* testimonial section  */
+
+.testimonial .testimonial-title span , .testimonial .testimonial-content span, .blog .blog-heading span , .blog .blog-content p span {
+    color: var(--icon-color);
+}
+
+.testimonial .testimonial-content img {
+    height: 100px;
+    width: 100px;
+}
+
+/* blog section  */
+
+.blog .blog-content img {
+    transition: all 0.2s ease-in-out;
+}
+
+.blog .blog-content img:hover {
+    transform: scale(1.1);
+}
+
+/* news-letter section  */
+
+.news-letter {
+    background-color: var(--icon-color);
+}
+
+/* footer section  */
+
+.footer-top .top-content a , .footer-top .company ul li a {
+    color: var(--text-white);
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-top .top-content a:hover , .footer-top .company ul li a:hover {
+    color: var(--icon-color);
+    text-decoration: underline;
+}
+
+.footer-top .company span {
+    border-bottom: 2px solid var(--icon-color);   
+}

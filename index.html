@@ -1,0 +1,585 @@
+<!-- https://preview.colorlib.com/theme/engineers/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructions</title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- fonts css  -->
+    <link rel="stylesheet" href="fonts/mulish/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="fonts/oswald/stylesheet.css" type="text/css">
+    <!-- remix icons css  -->
+    <link rel="stylesheet" href="remix/fonts/remixicon.css" type="text/css">
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <section class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex align-items-center py-4">
+                        <div class="col-4 col-lg-3">
+                            <div class="header-logo">
+                                <img src="images/logo.png.webp" alt="" class="image-fluid w-50">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-none d-lg-block">
+                                <div class="header-content d-flex flex-direction-row align-items-center">
+                                    <i class="ri-map-pin-line fs-1 fw-lighter"></i>
+                                    <div class="ms-2">
+                                        <h4 class="text-black mb-0">San Francisco</h4>
+                                        <p class="text-black-50 mb-0">Mountain View, Fake st., CA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-none d-lg-block">
+                                <div class="header-content d-flex align-items-center">
+                                    <i class="ri-phone-line fs-1 fw-lighter"></i>
+                                    <div class="ms-2">
+                                        <h4 class="text-black mb-0">000 209 392 312</h4>
+                                        <p class="text-black-50 mb-0">Toll free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-none d-lg-block">
+                                <div class="header-content d-flex align-items-center">
+                                    <i class="ri-mail-line fs-1 fw-lighter"></i>
+                                    <div class="ms-2">
+                                        <h4 class="text-black mb-0">
+                                            info@gmail.com</h4>
+                                        <p class="text-black-50 mb-0">Gournadi, 1230 Bariasl</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="d-lg-none">
+                                <div class="account d-sm-flex justify-content-center text-center">
+                                    <div class="login mb-2 mb-sm-0 me-sm-2" data-bs-toggle="modal"
+                                        data-bs-target="#login">
+                                        <a href="javascript:void(0)" class="btn btn-sm btn-outline-secondary">Login</a>
+                                    </div>
+                                    <div class="sign-up">
+                                        <a href="javascript:void(0)" class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="modal" data-bs-target="#sign-up">Sign Up</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="toggle d-lg-none text-end" data-bs-toggle="offcanvas" data-bs-target="#navbar">
+                                <a href="javascript:void(0)"><i class="ri-menu-line text-black fs-3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- navbar section  -->
+        <section class="navbar navbar-expand-lg py-4 d-none d-lg-block">
+            <div class="container">
+                <nav class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li><a href="javascript:void(0)" class="text-black mx-3">HOME</a></li>
+                        <li><a href="javascript:void(0)" class=" mx-3">ABOUT US</a></li>
+                        <li><a href="javascript:void(0)" class=" mx-3">OUR PROJECTS</a></li>
+                        <li><a href="javascript:void(0)" class=" mx-3">TESTIMONIALS</a></li>
+                        <li><a href="javascript:void(0)" class=" mx-3">BLOG</a></li>
+                        <li><a href="javascript:void(0)" class=" mx-3">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <a href="javascript:void(0)" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#login">Login</a>
+                    <a href="javascript:void(0)" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#sign-up">Sign Up</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- offcanvas section  -->
+        <section class="offcanvas offcanvas-end" id="navbar" data-bs-scroll="true" data-bs-backdrop="static">
+            <div class="offcanvas-header">
+                <h2>Menu</h2>
+                <a href="javascript:void(0)" class="btn-close" data-bs-dismiss="offcanvas"></a>
+            </div>
+            <div class="offcanvas-body">
+                <nav>
+                    <ul class="ps-0">
+                        <li><a href="javascript:void(0)" class="text-black mb-2">HOME</a></li>
+                        <li><a href="javascript:void(0)" class="text-black mb-2">ABOUT US</a></li>
+                        <li><a href="javascript:void(0)" class="text-black mb-2">OUR PROJECTS</a></li>
+                        <li><a href="javascript:void(0)" class="text-black mb-2">TESTIMONIALS</a></li>
+                        <li><a href="javascript:void(0)" class="text-black mb-2">BLOG</a></li>
+                        <li><a href="javascript:void(0)" class="text-black mb-2">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- modal login section  -->
+        <section class="modal fade" id="login" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Login</h2>
+                        <a href="javascript:void(0)" class="btn-close" data-bs-dismiss="modal"></a>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-floating">
+                                <input type="text" placeholder="Username" class="form-control">
+                                <label class="form-label">Username</label>
+                            </div>
+                            <div class="my-2 form-floating">
+                                <input type="password" placeholder="Password" class="form-control">
+                                <label class="form-label">Password</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="check">
+                                <label for="check" class="form-label">Terms & Conditions</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="btn btn-outline-warning" data-bs-dismiss="modal">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal sign-up section  -->
+        <section class="modal fade" data-bs-backdrop="static" id="sign-up">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Sign Up</h2>
+                        <a href="javascript:void(0)" class="btn-close" data-bs-dismiss="modal"></a>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-floating">
+                                <input type="text" placeholder="Create Username" class="form-control">
+                                <label class="form-label">Username</label>
+                            </div>
+                            <div class="form-floating my-2">
+                                <input type="password" placeholder="Create Password" class="form-control">
+                                <label class="form-label">Create Password</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" placeholder="Re-enter Password" class="form-control">
+                                <label class="form-label">Re-enter Password</label>
+                            </div>
+                            <div class="form-check mt-2">
+                                <input type="checkbox" class="form-check-input" id="check1">
+                                <label for="check1" class="form-label">Terms & Conditions</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="btn btn-outline-warning" data-bs-dismiss="modal">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- banner section  -->
+        <section class="banner carousel slide carousel-fade" data-bs-ride="true" id="slide">
+            <div class="carousel-indicators">
+                <a href="javascript:void(0)" class="active" data-bs-slide-to="0" data-bs-target="#slide"></a>
+                <a href="javascript:void(0)" data-bs-slide-to="1" data-bs-target="#slide"></a>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide1"></div>
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <h2 class="display-3 text-white">Expert and High Quality Works</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide2"></div>
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <h2 class="display-3 text-white">We are Leading Industry of Engineers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-control-prev preb-btn" data-bs-slide="prev" data-bs-target="#slide">
+                <a href="javascript:void(0)" class="carousel-control-prev-icon"></a>
+            </div>
+            <div class="carousel-control-next next-btn" data-bs-slide="next" data-bs-target="#slide">
+                <a href="javascript:void(0)" class="carousel-control-next-icon"></a>
+            </div>
+        </section>
+
+        <!-- advertisement section  -->
+        <section class="advertisement py-5">
+            <div class="container">
+                <div class="heading text-center my-5">
+                    <span class="fs-4">WHAT WE DO</span>
+                    <h2 class="display-6">We Are Leading Industry of Engineering. We Love What We Do</h2>
+                </div>
+                <div class="row g-0">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service p-4 border">
+                            <div class="text-end">
+                                <span class="fw-bold text-black-50">01</span>
+                            </div>
+                            <div>
+                                <i class="ri-building-2-line fs-1"></i>
+                                <h4 class="text-black mt-3">Professional Team</h4>
+                                <p class="text-black-50">Gravida sodales condimentum pellen tesq accumsan orci quam
+                                    sagittis sapie</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service p-4 border">
+                            <div class="text-end">
+                                <span class="fw-bold text-black-50">02</span>
+                            </div>
+                            <div>
+                                <i class="ri-building-2-line fs-1"></i>
+                                <h4 class="text-black mt-3">Professional Team</h4>
+                                <p class="text-black-50">Gravida sodales condimentum pellen tesq accumsan orci quam
+                                    sagittis sapie</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service p-4 border">
+                            <div class="text-end">
+                                <span class="fw-bold text-black-50">03</span>
+                            </div>
+                            <div>
+                                <i class="ri-building-2-line fs-1"></i>
+                                <h4 class="text-black mt-3">Professional Team</h4>
+                                <p class="text-black-50">Gravida sodales condimentum pellen tesq accumsan orci quam
+                                    sagittis sapie</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service p-4 border">
+                            <div class="text-end">
+                                <span class="fw-bold text-black-50">04</span>
+                            </div>
+                            <div>
+                                <i class="ri-building-2-line fs-1"></i>
+                                <h4 class="text-black mt-3">Professional Team</h4>
+                                <p class="text-black-50">Gravida sodales condimentum pellen tesq accumsan orci quam
+                                    sagittis sapie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section  -->
+        <section class="about my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-content position-relative">
+                            <div class="image d-none d-lg-block">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-text py">
+                            <span class="h5">WHY CHOOSE US</span>
+                            <h2 class="text-white">More than 50 year experience in industry</h2>
+                            <p class="text-white-50">Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum
+                                minima nostrum perspiciatis error consequatur sit nulla.</p>
+                            <div class="d-flex align-items-center">
+                                <i class="ri-building-2-line"></i>
+                                <div class="ms-3">
+                                    <h4 class="text-white">Expert in Buildings</h4>
+                                    <p class="text-white-50">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="ri-building-2-line"></i>
+                                <div class="ms-3">
+                                    <h4 class="text-white">Expert in Buildings</h4>
+                                    <p class="text-white-50">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="ri-building-2-line"></i>
+                                <div class="ms-3">
+                                    <h4 class="text-white">Expert in Buildings</h4>
+                                    <p class="text-white-50">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- quote section  -->
+        <section class="quote mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="quote-image d-none d-sm-flex">
+                            <img src="images/quote.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="h-100 d-flex align-items-center">
+                            <div class="quote-form">
+                                <span class="h5">GET A QUOTE</span>
+                                <h2 class="text-white mt-2 mb-5">Request a Quote</h2>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <input type="text" placeholder="Your Name*"
+                                                class="bg-transparent py-2 w-100 my-2">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <input type="text" placeholder="Phone Number*"
+                                                class="bg-transparent py-2 w-100 my-2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <input type="text" placeholder="Your Email"
+                                                class="bg-transparent py-2 w-100 my-2">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <input type="text" placeholder="Subject"
+                                                class="bg-transparent py-2 w-100 my-2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div>
+                                            <input type="text" placeholder="Message"
+                                                class="bg-transparent py-2 w-100 my-2">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="button py-2 text-center text-white my-2">SEND MESSAGE</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- project section  -->
+        <section class="project py">
+            <div class="container">
+                <div class="project-heading">
+                    <span class="fs-4">Our Projects</span>
+                    <h2 class="text-white">Explore our Recent Projects</h2>
+                </div>
+                <div class="project-design mt-5">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="project-content position-relative overflow-hidden my-2">
+                                <img src="images/p1.webp" alt="" class="position-relative">
+                                <div class="project-text position-absolute p-3">
+                                    <span class="fs-4 fw-light">Factory</span>
+                                    <h2 class="text-white">Building Refinery</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="project-content position-relative overflow-hidden my-2">
+                                <img src="images/p2.webp" alt="" class="position-relative">
+                                <div class="project-text position-absolute p-3">
+                                    <span class="fs-4 fw-light">Factory</span>
+                                    <h2 class="text-white">Building Refinery</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="project-content position-relative overflow-hidden my-2">
+                                <img src="images/p3.webp" alt="" class="position-relative">
+                                <div class="project-text position-absolute p-3">
+                                    <span class="fs-4 fw-light">Factory</span>
+                                    <h2 class="text-white">Building Refinery</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonial section  -->
+        <section class="testimonial py">
+            <div class="container">
+                <div class="testimonial-title text-center">
+                    <span class="fs-4">TESTIMONIAL</span>
+                    <h2>What People Says</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="testimonial-content my-5">
+                            <img src="images/testimonial1.webp" alt="" class="rounded-circle">
+                            <p class="text-black fw-semibold fs-5 my-3">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti iusto
+                                molestias, dolore vel fugiat ab placeat ea?”</p>
+                            <span class="fw-lighter fs-5">MATT KEYGEN</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testimonial-content my-5">
+                            <img src="images/testimonial2.webp" alt="" class="rounded-circle">
+                            <p class="text-black fw-semibold fs-5 my-3">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti iusto
+                                molestias, dolore vel fugiat ab placeat ea?”</p>
+                            <span class="fw-lighter fs-5">MATT KEYGEN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- blog section  -->
+        <section class="blog py-5 bg-light">
+            <div class="container">
+                <div class="blog-heading">
+                    <span class="fs-5 fw-lighter">BLOG</span>
+                    <h2 class="fw-lighter mt-1">News & Updates</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-content my-5">
+                        <div class="overflow-hidden">
+                            <img src="images/blog1.webp" alt="">
+                        </div>
+                        <h4 class="pt-4">Top Companies That Are Best In Industrial Business</h4>
+                        <p class="text-black-50">Posted by <span>Admin</span> in <span>News</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-content my-5">
+                        <div class="overflow-hidden">
+                            <img src="images/blog1.webp" alt="">
+                        </div>
+                        <h4 class="pt-4">Top Companies That Are Best In Industrial Business</h4>
+                        <p class="text-black-50">Posted by <span>Admin</span> in <span>News</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-content my-5">
+                        <div class="overflow-hidden">
+                            <img src="images/blog1.webp" alt="">
+                        </div>
+                        <h4 class="pt-4">Top Companies That Are Best In Industrial Business</h4>
+                        <p class="text-black-50">Posted by <span>Admin</span> in <span>News</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- news-letter section  -->
+        <section class="news-letter py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="news-content text-white">
+                            <h2 class="fw-light text-uppercase">Subscribe To Newsletter</h2>
+                            <p class="fs-5 fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, mollitia!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group d-flex align-items-center h-100">
+                            <input type="text" class="form-control bg-transparent text-white rounded-0 shadow-none border-white">
+                            <a href="javascript:void(0)" class="input-group-text bg-black text-white rounded-0">SUBSCRIBE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black">
+        <!-- footer-top section  -->
+        <section class="footer-top py">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="top-content">
+                            <img src="images/logo2.png.webp" alt="">
+                            <p class="text-white mt-4 mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint asperiores vitae veritatis magni, non voluptatum!</p>
+                            <a href="javascript:void(0)">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="company">
+                            <span class="text-white">OUR COMPANY</span>
+                            <ul class="mt-3 ps-0">
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">About</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">News</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Services</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Our Team</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Careers</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Projects</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="company">
+                            <span class="text-white">OUR SERVICES</span>
+                            <ul class="mt-3 ps-0">
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Industrial</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Construction</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Remodeling</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="company">
+                            <span class="text-white">CONTACT</span>
+                            <ul class="mt-3 ps-0">
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Help Center</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Support Community</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Press</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">FAQ</a></li>
+                                <li><a href="javascript:void(0)" class="my-2 fw-lighter">Our Partners</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- copy-right section  -->
+        <section class="copy-right py-5 text-center">
+            <p class="text-white">Copyright &copy;2024 All Rights Are Reserved.</p>
+        </section>
+    </footer>
+
+    <!-- bootstrap cdn  -->
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+</body>
+
+</html>
